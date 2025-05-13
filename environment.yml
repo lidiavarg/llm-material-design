@@ -1,0 +1,32 @@
+# environment.yml is for set up and adjust conda environment and all libraries from one file
+name: llm_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - pandas
+  - poppler
+  - nmslib
+  - dawg-python
+  - python-crfsuite
+  - lxml
+  - cssselect
+  - appdirs
+  - python-dateutil
+  - pyyaml
+  - regex
+  - joblib
+  - spacy
+  - sentencepiece
+  - pip  
+  - rdkit          
+  - pip:           
+      - transformers
+      - peft
+      - bitsandbytes
+      - pytest
+      - scispacy
+    
+
+

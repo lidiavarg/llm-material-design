@@ -1,0 +1,19 @@
+# Jupyter checkpoints
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual envs (if inside project)
+venv/
+.env/
+
+# Logs
+log.txt
+
+# OS/system files
+.DS_Store
+
+# IDE/workspace
+.vscode/
