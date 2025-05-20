@@ -27,6 +27,8 @@ dependencies:
       - bitsandbytes
       - pytest
       - scispacy
+      - PyMuPDF
+      - beautifulsoup4
     
 
 

@@ -17,3 +17,8 @@ log.txt
 
 # IDE/workspace
 .vscode/
+
+#Git Hub will not detect generative files with these formats in data folder 
+/data/**/*.txt
+/data/**/*.html
+
