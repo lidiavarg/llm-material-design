@@ -1,4 +1,4 @@
-from src import extract, clean, tokenize, training
+from src import extract, clean, text_tokenize, training
 
 def main():
     print("Starting LLM pipeline...\n")
@@ -12,7 +12,7 @@ def main():
     print("Text cleaning completed.\n")
 
     print("Step 3: Tokenizing...")
-    tokenize.run()
+    text_tokenize.run()
     print("Tokenization completed.\n")
     
     print("Step 4: Training...")
